@@ -25,7 +25,6 @@ import java.util.List;
 @RequestMapping("/restaurant/{restaurantId}/evaluation")
 @Slf4j
 @Validated
-@Tag(name = "Evaluations", description = "Endpoints de gestion des évaluations d'un restaurant")
 public class EvaluationController {
 
     private final EvaluationService evaluationService;
